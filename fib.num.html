@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    function fib(n) {
+
+      var a = 1;
+
+      var b = 1, c;
+
+      for (var count = 2; count < n; count++) {
+
+        c = a + b;
+
+        a = b;
+
+        b = c;
+
+      }
+
+      /*  */
+      return c;
+      /*  */
+    }
+    alert(fib(6));
+    alert(fib(9));
+  </script>
+</body>
+
+</html>

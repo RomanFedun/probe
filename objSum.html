@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+   var menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+  };
+  
+  function multiplyNumeric(obj) {
+    for (var name in obj) {
+      if (!isNaN(parseFloat(obj[name])) && isFinite(obj[name])) {
+          alert(name + ": " + ((obj[name]) * 2));
+        } else {
+          alert(name + ": " + obj[name]);
+       
+    }
+    }
+  }
+  
+  multiplyNumeric(menu);
+  </script> 
+</body>
+</html>
