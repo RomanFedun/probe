@@ -13,4 +13,4 @@ income: [],
 savings: false
 }
 console.log(appData);
-alert(money/30);
+alert('budget per one day: ' + money/30);
