@@ -1,0 +1,10 @@
+let year = 1979;
+let a = document.getElementById('out');
+let y = document.getElementById('test');
+a.innerHTML ='<i>hi Roman</i>';
+y.innerHTML = 2019 - year + ' years old';
+alert('Roman Fedun');
+a = 'hello';
+let b = ' ';
+let c = 'world';
+console.log(a + b + c);

@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+    background: yellowgreen;
+    text-align: center;
+    padding: 1%
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    background: url(tygr.jpg) center no-repeat;
+    height: 50vh;
+}

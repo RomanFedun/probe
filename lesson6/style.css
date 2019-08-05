@@ -1,0 +1,29 @@
+div {
+    margin: 30px;
+}
+
+body {
+    color: black;
+    background-color: white;
+}
+div.style {
+    margin: 15px;
+}
+body{
+    font-size: 16px;
+}
+.color-value {
+    float: left;
+}
+span {
+    margin: 30px;
+    font-size: 11px;
+}
+#show-color {
+   margin: 0;
+    display: flex;
+    height: 7vh;
+    width: 26vh;
+    background-color: rgb(127,127,127);
+    border: 2px solid;
+}

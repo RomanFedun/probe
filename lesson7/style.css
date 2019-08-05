@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: aquamarine;
+    background-color: rgb(43, 226, 119);
+    margin: 20px;
+}
+
+h2{
+    
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.inp{
+    margin: 2%;
+}
+
+div{
+    margin: 10px;
+    height: max-content;
+    width: max-content;
+    border: solid 1px rgb(98, 34, 182);
+}
+#text{
+    display: contents;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lesson6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>task1</h2>
+    <div>
+        text:   <input type="text" class="input-text">
+    </div>
+    <div>
+        password:<input type="password" class="input-pass">
+    </div>
+    <div>
+        range: <input type="range" class="input-range">
+    </div>
+    <div>
+       radio-button 1:  <input type="radio" class="input-radio" id="radio-1" name="checking">
+       <label for="radio_1">potato</label><br>
+       radio-button 2:  <input type="radio" class="input-radio"  id="radio-2" name="checking">
+       <label for="radio_2">watermelon</label><br>
+       radio-button 3:  <input type="radio" class="input-radio" id="radio-3" name="checking">
+       <label for="radio_3">lemon</label>
+    </div>
+    <div>
+        <input type="date" class="input-calendar">
+    </div>
+    <div>
+      check-box:  <input type="checkbox" id="box">
+      <label for="box">make your choose</label>
+    </div>
+    <div>
+        color:  <input type="color" id="input-color">
+    </div>
+
+    <button id="btn-check">check value</button>
+    <hr><br>
+
+    <h2>task2</h2>
+    <div class="style">
+        choose font color: <input type="color" id="font-color">
+    </div>
+    <div class="style">
+        choose background: <input type="color" id="background">
+    </div>
+    <button id="indulge">to confirm</button>
+    <button id="reset">reset</button>
+    <hr><br>
+
+    <h2>task3,4</h2>
+    <div>
+        choose font-size:<input type="range" id="range" max="48" min="14"><span><input type="text" id="font-size"></span>
+    </div>
+    <hr><br>
+
+    <h2>task5</h2>
+    <div>
+        <span class="color-value">
+           "r"-value:<input type='range' class="inp" id='r-color' min="0" max="255"><br><input type="text" id="r-value">
+        </span>
+        <span class="color-value">
+            "g"-value:<input type="range" id="g-color" min="0" max="255"><br><input type="text" id="r-value">
+        </span>
+        <span class="color-value">
+            "b"-value:<input type="range" id="b-color" min="0" max="255"><br><input type="text" id="b-value">
+        </span>
+        <span class="color-value">
+            <div id="show-color"></div>
+        </span>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
