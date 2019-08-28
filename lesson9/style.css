@@ -1,0 +1,25 @@
+h1 {
+    color: cornflowerblue;
+    background-color: chartreuse;
+    margin: 15px;
+}
+h2 {
+    color: rgb(187, 104, 27);
+    font-size: 25px;
+}
+body {
+    text-align: center;
+}
+#div2 {
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    display: inline-block;
+}
+#div2in {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    display: inline-block;
+}
