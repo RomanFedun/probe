@@ -1,0 +1,44 @@
+* {
+   
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.background {
+   height: 100vh;
+    background-color: rgba(10, 9, 9,.4);
+    
+}
+
+h1 {
+    background: rgb(174, 174, 252);
+    margin: 20px;
+    font-size: 35px;
+}
+#btn {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5%;
+}
+.window {
+    box-sizing: border-box;
+    height: 340px;
+    width: 250px;
+    display: inline-block;
+    font-size: 30px;
+    text-align:  center;
+    color: rgb(199, 182, 182);
+    margin: 30px;
+    border: solid 2px grey;
+    border-radius: 5%;
+    background-color: white;
+
+}
+.hide {
+    display: none;
+}
+#close {
+    margin-top: 250px;
+}
