@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* .background {
+   height: 100vh;
+    background-color: rgba(135, 130, 139, 0.4);  
+}  */
+
+h1 {
+    background: rgb(174, 174, 252);
+    margin: 20px;
+    font-size: 35px;
+}
+#btn {
+    margin: 400px;
+    padding: 15px;
+    border-radius: 5%;
+}
+.window {
+    box-sizing: border-box;
+    height: 480px;
+    width: 320px;
+    display: inline-block;
+    font-size: 30px;
+    text-align:  center;
+    color: rgb(199, 182, 182);
+    margin: 30px;
+    border: solid 2px grey;
+    border-radius: 5%;
+    background-color: white;
+    position: relative;
+}
+#span {
+    margin-left: 75px;
+    float: left;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(34, 21, 21);
+    padding: 5px;
+}
+span{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.slider {
+    height: 390px;
+    width: 630px;
+    background-color: blueviolet;
+    transition: all ease 1s;
+    overflow: hidden;
+}
+.right {
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-color: aqua;
+    max-height: 100%;
+    overflow-y: scroll;
+    transition: all ease 1s;
+}
+.left {
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-color: rgb(134, 143, 53)
+    
+}

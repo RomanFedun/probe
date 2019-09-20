@@ -1,0 +1,33 @@
+.press {
+    margin-left: -120px;
+    background-color: yellow;
+    display: inline-block;
+    text-align:center;
+    box-sizing: border-box;
+}
+#press{
+    background-color: yellow;
+    display: inline-block;
+    margin-right: -100px;
+}
+.arrow {
+    margin-top: -30px;
+    /* margin-left: 270px; */
+    /* margin-bottom: 270px; */
+    height: 30px;
+    width: 30px;
+    border: solid grey 1px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 20px;
+
+}
+#close {
+    margin-top: 5px;
+    border-radius: 7%;
+}
+.hide {
+    overflow: hidden;
+}
