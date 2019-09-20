@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lesson13</title>
+    <link rel="stylesheet" href="css/style_form.css">
+</head>
+<body>
+    <h1>lesson13</h1>
+    <form>
+        <div>url <input type="url" name="url"></div>
+        <div>week <input type="week" name="week"></div>
+        <div>time <input type="time" name="time"></div>
+        <div>tel <input type="tel" name="tel"></div>
+        
+        <div>search <input type="search" name="sch"></div>
+        
+        <div>range <input type="range" name="range"></div>
+        
+        <div>password <input type="password" name="pass" maxlength="15"></div>
+        <div>number <input type="number" name="num"></div>
+        <div>text <input type="text" name="get-text" maxlength="18" placeholder="input your name"></div>
+        <div>
+            <label for="">ticket</label> <input type="checkbox" name="check">
+        </div>
+        <div>
+            standing    <input type="radio" name="radio" value="standing">
+            sitting     <input type="radio" name="radio" value="sitting">
+            on the roof <input type="radio" name="radio" value="on the roof">
+        </div>
+        <textarea name="text-area" cols="9" rows="7" placeholder="your comments" maxlength="40"></textarea><br>
+        color <input type="color" name="color">
+        <div>reset <input type="reset" name="reset"></div>
+        
+        <div>select 
+            <select type="select-multiple" name="test" size="5"  multiple id="select-1">
+                <option value="1">txt</option>
+                <option value="2">html</option>
+                <option value="3">css</option>
+                <option value="4">php</option>
+                <option value="5">js</option>
+                <option value="6">ruby</option>
+                <option value="7">c++</option>
+                <option value="8">.NET</option>
+            </select>
+        </div>
+        <div>submit <input id="submited" type="submit" name="submit" value="first kind of submit"></div>
+       
+    </form>
+    <script src="js/serialize.js"></script>
+    <script src="js/get_select.js"></script>
+</body>
+</html>
